@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Internhacks Quiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1 id = "title">Internhacks Quiz Prototype! (Python Questions)</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">1) Fill in the blank so that it would print the position of the value "cherry"</p>
+<img src="img/questionex2.png" alt="question2" width="450" height="150"><br>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">2) What is the answer to this expression, 22 % 3 is?</p>
+<input type = "radio" id = "mc" name = "question2" value = "a2"> a) 7<br>
+<input type = "radio" id = "mc" name = "question2" value = "b2"> b) 1<br>
+<input type = "radio" id = "mc" name = "question2" value = "c2"> c) 0<br>
+<input type = "radio" id = "mc" name = "question2" value = "d2"> d) 5<br>
+
+<p class = "questions">3) What will be the output of the following Python code?</p>
+<img src="img/questionex.png" alt="question2" width="450" height="150"><br>
+<input type = "radio" id = "mc" name = "question3" value = "a3"> a) error<br>
+<input type = "radio" id = "mc" name = "question3" value = "b3"> b) hello<br>
+<input type = "radio" id = "mc" name = "question3" value = "c3"> c) good<br>
+<input type = "radio" id = "mc" name = "question3" value = "d3"> d) bad<br>
+
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
